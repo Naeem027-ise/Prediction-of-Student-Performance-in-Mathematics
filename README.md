@@ -6,10 +6,17 @@ Transform the dataset and build machine learning models to classify student outc
 ## ⚙️ Approach
 
 EDA: Cleaned data, visualized trends, analyzed feature correlations.
+
 Preprocessing: One-hot encoding, z-score scaling, binary target transformation.
+
 Feature Selection: Used RFECV to select top 6 features.
-Models Used:
+
+## Models Used:
+
 Logistic Regression (Best: 94% accuracy)
+
 SVM (RBF) (91% accuracy)
+
 Random Forest (88% accuracy)
-Evaluation: Confusion matrix, McNemar’s test & Z-test — no significant performance difference.
+
+## Evaluation: Confusion matrix, McNemar’s test & Z-test — no significant performance difference.
